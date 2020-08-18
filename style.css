@@ -1,0 +1,87 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body
+{
+    height: 100%;
+
+    width: 100%;
+
+    margin: 0;
+
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+
+    flex-direction: column;
+}
+
+header
+{
+    background-color: blueviolet;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 3%;
+
+    flex: 1.75;
+
+    font-family: Ubuntu;
+
+    font-size: 33px;
+
+    color: white;
+}
+
+main
+{
+    flex: 5;
+
+    font-family: "Roboto Mono";
+
+    background-color: rgb(48, 44, 41);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.text
+{
+    font-weight: 100;
+
+    font-size: 63px;
+
+    color: #FAFAFA;
+}
+
+.scrambleText
+{
+    color: #817b7b;
+}
+
+footer
+{
+    background-color: blueviolet;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex: 1;
+
+    font-family: Ubuntu;
+
+    color: white;
+
+    font-size: 19px;
+}
